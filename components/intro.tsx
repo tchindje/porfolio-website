@@ -65,13 +65,7 @@ export default function Intro() {
         Hello, I'm <span className="font-bold"> Tchindje Eric.</span> I'm a
         <span className="font-bold"> full-stack web developer</span> with
         <span className="font-bold"> 3 years</span> of experience and also a
-        <span className="font-bold">
-          {" "}
-          junior data scientist.
-          <br />
-          {/* Ready to turn your next idea into the beautiful and responsive web
-          site. */}
-        </span>
+        <span className="font-bold"> junior data scientist.</span>
       </motion.h1>
 
       <motion.div
