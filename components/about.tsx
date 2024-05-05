@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm pasionate about{" "}
+        I'm pasionate of{" "}
         <span className="font-bold"> software development </span>
         and <span className="font-bold">machine learning</span>. <br />I
         interested about
@@ -35,7 +35,7 @@ export default function About() {
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy reading
         self development books and
-        <span className="font-medium"> learning new things</span>.
+        <span className="font-medium"> watch Movie.</span>.
       </p>
     </motion.section>
   );

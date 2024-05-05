@@ -15,12 +15,15 @@ type ActiveSectionContextType = {
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
-export const ActiveSectionContext =
-  createContext<ActiveSectionContextType | null>(null);
+
+export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
+
+
 
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
+
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0); // we need to keep track of this to disable the observer temporarily when user clicks on a link
 
@@ -39,6 +42,7 @@ export default function ActiveSectionContextProvider({
 }
 
 export function useActiveSectionContext() {
+  
   const context = useContext(ActiveSectionContext);
 
   if (context === null) {
