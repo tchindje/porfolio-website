@@ -43,9 +43,9 @@ export const experiencesData = [
   {
     title: "Full-Stack at Eden It",
     location: "Yaounde, Bata  Nlogkak",
-    description: `I worked as ful stack developer for 8 months. Designing and developing enterprise software. 
+    description: `I worked as fullstack developer. The main task was designing and developing enterprise software. 
       This includes tasks such as gathering requirements,designing the software architecture, 
-      implementing the software, and testing the software.using Clean architectur pattern, CQRS, SOLID and SRUM principe.`,
+      implement and test the software. Using Clean architecture pattern, CQRS, SOLID and SRUM principe.`,
     icon: React.createElement(CgWorkAlt),
     date: "January 2022 - March 2023",
   },
@@ -87,9 +87,9 @@ export const projectsData = [
     urlLink: "https://biserv.com/",
   },
   {
-    title: "landing page site",
+    title: "Landing page site",
     description:
-      "Building landing page for the customer to expose their product and branding.",
+      "Building landing page for the customers to expose their product and branding.",
     tags: ["React", "Tailwind", "REST API", "Flask"],
     imageUrl: landingPage,
     urlLink: "",
