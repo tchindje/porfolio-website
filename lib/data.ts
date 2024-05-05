@@ -41,22 +41,22 @@ export const experiencesData = [
     date: "January 2022 - May 2022",
   },
   {
-    title: "Full-Stack chez Eden It",
+    title: "Full-Stack at Eden It",
     location: "Yaounde, Bata  Nlogkak",
     description: `I worked as ful stack developer for 8 months. Designing and developing enterprise software. 
       This includes tasks such as gathering requirements,designing the software architecture, 
       implementing the software, and testing the software.using Clean architectur pattern, CQRS, SOLID and SRUM principe.`,
     icon: React.createElement(CgWorkAlt),
-    date: "August 2022 - March 2023",
+    date: "January 2022 - March 2023",
   },
   {
-    title: "Full-Stack chez BiServCam ",
+    title: "Full-Stack at BiServCam ",
     location: "Yaounde, Mobile Olezoa",
     description: `Design and development of enterprise software in accordance with the specifications
      and by applying the concepts and methods of software engineering facilitating the modularity of 
      the code, the maintainability of the code and testing.`,
     icon: React.createElement(CgWorkAlt),
-    date: "June 2022 - Febuary 2023",
+    date: "June 2023 - now",
   },
 ] as const;
 

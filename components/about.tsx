@@ -35,7 +35,7 @@ export default function About() {
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy reading
         self development books and
-        <span className="font-medium"> watch Movie.</span>.
+        <span className="font-medium"> watch Movie.</span>
       </p>
     </motion.section>
   );
